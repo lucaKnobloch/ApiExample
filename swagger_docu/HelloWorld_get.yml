@@ -1,0 +1,10 @@
+To retrieve Ai quotes
+    Call this api and get back an return which endpoints are available
+    ---
+    tags:
+      - Welcome to AI Quotes
+    responses:
+      500:
+        description: Error no such endpoint!
+      200:
+        description: Here you go, it worked
